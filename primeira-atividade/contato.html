@@ -5,29 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Fernandez - Contato</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div>
-        <ul>
-            <li><a href="./Index.html">Home</a></li>
-            <li><a href="./contato.html">Contato</a></li>
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./contato.html" target="_blank">Contato</a></li>
         </ul>
     </div>
-
-    <div>
+    <div class="container-contact">
         <h1>Fale Comigo</h1>
         <form action="/action_page.php">
             <label for="fname">Nome:</label><br>
-            <input type="text" id="fname" name="fname" value="Nome"><br>
+            <input type="text" id="fname" name="fname" placeholder="Nome"><br>
             <label for="lname">Sobrenome:</label><br>
-            <input type="text" id="lname" name="lname" value="Sobrenome"><br><br>
-            <input type="submit" value="Enviar">
+            <input type="text" id="lname" name="lname" placeholder="Sobrenome"><br><br>
+            <label for="msg">Mensagem:</label><br>
+            <textarea name="msg" id="" cols="30" rows="10"></textarea><br>
+            <input class="enviar" type="submit" value="Enviar">
         </form>
-
+    </div>
+    <div class="container-tecnologies">
+        <div class="contacts">
+            <a href="www.linkedin.com/in/gabriel-fernandez-dev"><img src="./assets/img/linkedin.png" alt="Logo do LinkedIn"
+                    title="LinkedIn"></a>
+            <a href=""><img src="./assets/img/github.png" alt="Logo do GitHub" title="GitHub"></a>
+            
+        </div>
     </div>
 
-    </div>
 </body>
 
 </html>

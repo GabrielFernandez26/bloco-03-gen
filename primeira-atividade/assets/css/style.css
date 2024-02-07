@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ddd;
+}
+.menu {
+    background-color: #aaa;
+    padding: 10px;
+}
+.menu li {
+    display: inline;
+    padding: 16px;
+}
+
+.menu li a {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    color: blue;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tecnologies {
+    display:block;
+}
+
+.container-tecnologies h1{
+    text-align: center;
+}
+
+.container-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-img img {
+    width: 100px;
+    height: 100px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin: 5px 0px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.enviar:hover {
+    background-color: rgb(39, 39, 255);
+}
+
+.container-tecnologies .contacts {
+    display: flex;
+    justify-content: center;
+}
+.container-tecnologies .contacts img{
+    margin: 5px 0px;
+    width: 50px;
+}
