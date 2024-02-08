@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 200px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF9E7;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    max-width: 12rem;
+}
+
+.container-logo img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: #3A53E3;
+    color: #fff;
+    padding: 30px;
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+   list-style: none;
+}
+
+nav a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+main h1 {
+    padding: 35px 0px;
+}
+
+.info {
+    background-color: #F8CD53;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.container-info p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.info img {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.pitch {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.pitch h2{
+    padding-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    padding: 30px 0px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #29282B;
+    width: 100%;
+    height: 11rem;
+    color: #DD7024;
+}
+
+footer .contatos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+}
+
+footer img {
+    width: 100%;
+    height: 4em;
+    padding-left: 50px;
+}
+/* Contatos */
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+#principal {
+    flex: 2;
+    width: 100%;
+    padding-right: 20px;
+}
+
+#formulario_buscacep {
+    flex: 1;
+}
+
+main h3 {
+    text-align: center;
+}
+
+.campos-form, #formulario_buscacep div {
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-form label, #formulario_buscacep div {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+input, textarea {
+    border-radius: 8px;
+    border: 1px solid #FFAB10;
+    padding: 7px;
+    
+}
+
+button {
+    width:100%;
+    margin-top: 10px;
+    padding: 12px;
+    border: 1px solid #191970;
+    background-color: #3A53E3;
+    color: #fff;
+    border-radius: 7px;
+}
